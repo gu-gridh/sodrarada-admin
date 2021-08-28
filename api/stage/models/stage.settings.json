@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "stages",
   "info": {
-    "name": "Stage"
+    "name": "Stage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "Name": {
+    "name": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -23,7 +24,7 @@
       },
       "type": "string"
     },
-    "Start": {
+    "start": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -31,7 +32,7 @@
       },
       "type": "date"
     },
-    "End": {
+    "end": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -39,9 +40,21 @@
       },
       "type": "date"
     },
-    "video": {
+    "images": {
+      "via": "stage",
+      "collection": "image"
+    },
+    "videos": {
       "via": "stages",
-      "model": "video"
+      "collection": "video"
+    },
+    "models": {
+      "via": "stage",
+      "collection": "model"
+    },
+    "documents": {
+      "via": "stages",
+      "collection": "document"
     }
   }
 }

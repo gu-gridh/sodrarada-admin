@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "keywords",
+  "info": {
+    "name": "Keyword",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

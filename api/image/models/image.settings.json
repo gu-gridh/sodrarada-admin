@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "name": "Image",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "url": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "subject": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "creation": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "stage": {
+      "model": "stage",
+      "via": "images"
+    },
+    "keywords": {
+      "collection": "keyword"
+    },
+    "creator": {
+      "collection": "person",
+      "via": "images",
+      "model": "person"
+    },
+    "depicted": {
+      "collection": "person",
+      "via": "imageDepicting",
+      "dominant": true
+    }
+  }
+}
