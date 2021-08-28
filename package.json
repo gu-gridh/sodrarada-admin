@@ -1,0 +1,38 @@
+{
+  "name": "sodrarada-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi admin platform for the Södra Råda portal",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-utils": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0"
+  },
+  "author": {
+    "name": "Arild Matsson <arild.matsson@gu.se>"
+  },
+  "strapi": {
+    "uuid": "eae2aab3-9beb-40fa-bf78-1c59c4f71bf5"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
