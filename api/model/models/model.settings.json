@@ -61,8 +61,8 @@
       "type": "date"
     },
     "stage": {
-      "model": "stage",
-      "via": "models"
+      "via": "models",
+      "model": "stage"
     },
     "keywords": {
       "collection": "keyword"

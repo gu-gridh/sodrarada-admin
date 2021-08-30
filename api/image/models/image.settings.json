@@ -65,8 +65,8 @@
       }
     },
     "stage": {
-      "model": "stage",
-      "via": "images"
+      "via": "images",
+      "model": "stage"
     },
     "keywords": {
       "collection": "keyword"

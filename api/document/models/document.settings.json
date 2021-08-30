@@ -54,8 +54,8 @@
       "type": "date"
     },
     "stages": {
-      "collection": "stage",
       "via": "documents",
+      "collection": "stage",
       "dominant": true
     },
     "keywords": {
