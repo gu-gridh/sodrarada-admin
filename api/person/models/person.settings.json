@@ -37,6 +37,10 @@
     "documents": {
       "via": "creators",
       "collection": "document"
+    },
+    "references": {
+      "via": "creators",
+      "collection": "reference"
     }
   }
 }

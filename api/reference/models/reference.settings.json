@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "stages",
+  "collectionName": "references",
   "info": {
-    "name": "Stage",
+    "name": "Reference",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "name": {
+    "url": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,7 +24,23 @@
       },
       "type": "string"
     },
-    "start": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "creators": {
+      "collection": "person",
+      "via": "references",
+      "dominant": true
+    },
+    "keywords": {
+      "collection": "keyword"
+    },
+    "creation": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -32,33 +48,10 @@
       },
       "type": "date"
     },
-    "end": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "date"
-    },
-    "images": {
-      "via": "stage",
-      "collection": "image"
-    },
-    "videos": {
-      "via": "stages",
-      "collection": "video"
-    },
-    "models": {
-      "via": "stage",
-      "collection": "model"
-    },
-    "documents": {
-      "via": "stages",
-      "collection": "document"
-    },
-    "references": {
-      "via": "stages",
-      "collection": "reference"
+    "stages": {
+      "collection": "stage",
+      "via": "references",
+      "dominant": true
     }
   }
 }
