@@ -32,14 +32,6 @@
         }
       }
     },
-    "url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "subject": {
       "type": "string",
       "pluginOptions": {
