@@ -64,11 +64,6 @@
       },
       "type": "string"
     },
-    "stages": {
-      "via": "videos",
-      "collection": "stage",
-      "dominant": true
-    },
     "creators": {
       "collection": "person",
       "via": "videos",
@@ -76,6 +71,17 @@
     },
     "keywords": {
       "collection": "keyword"
+    },
+    "date": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "various.year",
+      "required": true
     }
   }
 }

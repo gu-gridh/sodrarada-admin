@@ -53,13 +53,19 @@
       },
       "type": "date"
     },
-    "stages": {
-      "via": "documents",
-      "collection": "stage",
-      "dominant": true
-    },
     "keywords": {
       "collection": "keyword"
+    },
+    "date": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "various.year",
+      "required": true
     }
   }
 }

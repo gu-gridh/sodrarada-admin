@@ -47,11 +47,6 @@
         }
       },
       "type": "date"
-    },
-    "stages": {
-      "collection": "stage",
-      "via": "references",
-      "dominant": true
     }
   }
 }

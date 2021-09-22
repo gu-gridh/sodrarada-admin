@@ -56,10 +56,6 @@
         }
       }
     },
-    "stage": {
-      "via": "images",
-      "model": "stage"
-    },
     "keywords": {
       "collection": "keyword"
     },
@@ -72,6 +68,17 @@
       "collection": "person",
       "via": "imageDepicting",
       "dominant": true
+    },
+    "date": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "various.year",
+      "required": true
     }
   }
 }
