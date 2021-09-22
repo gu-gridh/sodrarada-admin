@@ -79,6 +79,30 @@
       },
       "component": "various.year",
       "required": true
+    },
+    "source": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "photograph",
+        "historical_photograph",
+        "blueprint",
+        "sketch",
+        "painting"
+      ],
+      "required": false
     }
   }
 }

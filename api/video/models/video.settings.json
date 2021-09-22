@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "youtube": {
+    "url": {
       "pluginOptions": {
         "i18n": {
           "localized": false

@@ -66,6 +66,28 @@
       },
       "component": "various.year",
       "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "report",
+        "article",
+        "source"
+      ],
+      "required": false
     }
   }
 }

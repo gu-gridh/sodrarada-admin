@@ -74,6 +74,19 @@
       },
       "component": "various.year",
       "required": true
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "model",
+        "documentation"
+      ],
+      "required": false
     }
   }
 }
