@@ -103,6 +103,14 @@
         "painting"
       ],
       "required": false
+    },
+    "iiif": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
