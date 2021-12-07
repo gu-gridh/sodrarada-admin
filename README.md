@@ -5,6 +5,6 @@ Strapi admin platform for the Södra Råda portal at https://sodrarada.dh.gu.se/
 ## Deploy
 
 ```
-nvm use 12
+nvm use
 yarn build
 ```
