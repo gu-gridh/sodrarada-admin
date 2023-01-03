@@ -11,10 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.18",
-    "mysql": "^2.18.1",
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-users-permissions": "^4.5.5",
     "@strapi/strapi": "4.5.5",
-    "@strapi/plugin-i18n": "4.5.5"
+    "knex": "0.21.18",
+    "mysql": "^2.18.1"
   },
   "author": {
     "name": "Arild Matsson <arild.matsson@gu.se>"
