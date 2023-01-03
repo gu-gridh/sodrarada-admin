@@ -13,15 +13,8 @@
   "dependencies": {
     "knex": "0.21.18",
     "mysql": "^2.18.1",
-    "strapi": "3.6.8",
-    "strapi-admin": "3.6.8",
-    "strapi-connector-bookshelf": "3.6.8",
-    "strapi-plugin-content-manager": "3.6.8",
-    "strapi-plugin-content-type-builder": "3.6.8",
-    "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-i18n": "3.6.8",
-    "strapi-plugin-upload": "3.6.8",
-    "strapi-utils": "3.6.8"
+    "@strapi/strapi": "4.5.5",
+    "@strapi/plugin-i18n": "4.5.5"
   },
   "author": {
     "name": "Arild Matsson <arild.matsson@gu.se>"
@@ -30,8 +23,8 @@
     "uuid": "eae2aab3-9beb-40fa-bf78-1c59c4f71bf5"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
