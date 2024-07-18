@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_various_years",
+  "info": {
+    "icon": "calendar",
+    "description": "",
+    "displayName": "year"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "approximate": {
+      "type": "boolean",
+      "default": false
+    },
+    "uncertain": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}
