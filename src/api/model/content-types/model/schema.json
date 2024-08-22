@@ -5,10 +5,11 @@
     "singularName": "model",
     "pluralName": "models",
     "displayName": "Model",
-    "name": "model",
-    "description": ""
+    "name": "model"
   },
   "options": {
+    "increments": true,
+    "timestamps": true,
     "draftAndPublish": false
   },
   "pluginOptions": {
@@ -19,13 +20,13 @@
   "attributes": {
     "model": {
       "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
+      ],
+      "multiple": false,
+      "required": false
     },
     "creators": {
       "type": "relation",
@@ -88,19 +89,11 @@
     },
     "image": {
       "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
-    },
-    "url": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      ],
+      "multiple": false,
+      "required": false
     }
   }
 }
